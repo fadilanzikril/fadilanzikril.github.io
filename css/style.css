@@ -5,20 +5,21 @@
   font-style: normal;
 
 }
-body{
-  font-family: 'poppinslight',sans-serif;
+
+body {
+  font-family: 'poppinslight', sans-serif;
 }
 
-.navbar .nav-item{
+.navbar .nav-item {
   margin-left: 30px;
 }
 
-.navbar .nav-item .nav-link{
+.navbar .nav-item .nav-link {
   padding: 5px 0;
   position: relative;
 }
 
-.navbar .nav-item .nav-link::before{
+.navbar .nav-item .nav-link::before {
   content: '';
   position: absolute;
   left: 0;
@@ -31,41 +32,46 @@ body{
 }
 
 .navbar .nav-item .nav-link.active::before,
-.navbar .nav-item .nav-link:hover::before{
+.navbar .nav-item .nav-link:hover::before {
   transform: scale(1);
 }
 
 
-.jumbo{
+.jumbo {
   padding-top: 6rem;
   background-color: rgb(208, 223, 223);
 }
 
-#project{
+#project {
   background-color: rgb(208, 223, 223);
 }
 
-.card img{
+.card img {
   transition: .5s;
 }
-.card img:hover{
+
+.card img:hover {
   transform: scale(1.1);
 }
-section{
+
+section {
   padding-top: 5rem;
 }
-footer{
+
+footer {
   position: relative;
   height: 60px;
   padding: 20px;
   box-shadow: 0px -2px 20px 0px rgb(177, 177, 177);
   background-color: rgb(0, 192, 182);
 }
-footer a{
+
+footer a {
   text-decoration: none;
   color: #ffff;
 }
-footer a:hover{
+
+footer a:hover {
   text-decoration: none;
-  color: rgb(253, 47, 47);
+  color: rgb(133, 19, 19);
 }
